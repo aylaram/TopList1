@@ -21,11 +21,12 @@
 
     <ListView
         android:id="@+id/itemsList"
-        android:layout_width="395dp"
+        android:layout_width="295dp"
         android:layout_height="508dp"
         android:layout_marginTop="44dp"
+        android:background="@android:drawable/alert_light_frame"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#A28A8A"
         app:layout_constraintTop_toTopOf="@+id/listName" />
 </android.support.constraint.ConstraintLayout>

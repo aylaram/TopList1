@@ -24,16 +24,16 @@
 
     <ListView
         android:id="@+id/itemsList"
-        android:layout_width="395dp"
-        android:layout_height="485dp"
+        android:layout_width="270dp"
+        android:layout_height="500dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:textColor="#A28A8A"
+        android:background="@android:drawable/alert_light_frame"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etList" />
 
